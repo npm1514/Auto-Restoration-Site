@@ -10,7 +10,11 @@
   display: inline;
 }
 
-.jumbotron {
+hr {
+  border: 2px solid #fff;
+}
+
+.home {
   background-image:url('https://images.unsplash.com/uploads/1413686514683468a35c4/bcccfd71?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925');
   height: 500px;
   background-repeat: no-repeat;
@@ -76,4 +80,8 @@
 
 .learn-more a {
   color: #00b0ff;
+}
+
+iframe {
+  margin: 20px;
 }
