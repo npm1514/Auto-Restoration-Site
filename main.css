@@ -82,6 +82,48 @@ hr {
   color: #00b0ff;
 }
 
-iframe {
-  margin: 20px;
+.embed-responsive #frameit {
+  height: 522px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .embed-responsive #frameit {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .embed-responsive #frameit {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .embed-responsive #frameit {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .embed-responsive #frameit {
+    height: 275px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .embed-responsive #frameit {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .embed-responsive #frameit {
+    height: 225px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .embed-responsive #frameit {
+    height: 200px;
+  }
 }
